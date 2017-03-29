@@ -107,5 +107,135 @@ h2 {
   justify-content: space-around;
   color: #fff;
   font-size: 20px;
+}
 
+/* ADAPTIVE*/
+
+.adaptive .header {
+  width: 1000px;
+  height: 100px;
+  background-color: green;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  color: #fff;
+}
+
+.adaptive .nav {
+  width: 300px;
+  height: 600px;
+  background-color: green;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  color: #fff;
+}
+
+.adaptive .section {
+  width: 700px;
+  height: 600px;
+  background-color: green;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  color: #fff;
+}
+
+.adaptive .container {
+  width: 100%;
+  display: flex;
+}
+
+
+
+/* RESPONSIVE */
+
+.responsive {
+  width: 100%;
+  margin: 0px 5px;
+}
+
+.responsive .header {
+  width: 100%;
+  background-color: green;
+  border: 1px solid #fff;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 20px;
+}
+
+.responsive .container {
+  width: 100%;
+  display: flex;
+}
+
+.responsive .nav {
+  width: 30%;
+  background-color: green;
+  border: 1px solid #fff;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 20px;
+
+}
+
+.responsive .section {
+  width: 70%;
+  background-color: green;
+  border: 1px solid #fff;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+
+@media (max-width:1050px) {
+
+  body.mobile {
+    background-color: purple;
+  }
+
+  .adaptive .header {
+    width: 400px;
+  }
+
+  .adaptive .nav {
+    width: 120px;
+  }
+
+  .adaptive .section {
+    width: 280px;
+  }
+
+  .responsive .nav {
+    width: 100%;
+  }
+
+  .responsive .section {
+    width: 100%;
+  }
+
+  .responsive .container {
+    display: inherit;
+  }
+
+  .responsive {
+    margin: 0px 15px;
+  }
 }
