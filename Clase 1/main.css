@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+/* STATIC */
+
+.static .header {
+  width: 1000px;
+  height: 100px;
+  background-color: green;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  color: #fff;
+}
+
+.static .nav {
+  width: 300px;
+  height: 600px;
+  background-color: green;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  color: #fff;
+}
+
+.static .section {
+  width: 700px;
+  height: 600px;
+  background-color: green;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  color: #fff;
+}
+
+.static .container {
+  width: 100%;
+  display: flex;
+}
+
+
+/* LIQUID */
+
+.liquid {
+  width: 100%;
+  margin: 0px 5px;
+}
+
+.liquid .header {
+  width: 100%;
+  background-color: green;
+  border: 1px solid #fff;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 20px;
+}
+
+.liquid .container {
+  width: 100%;
+  display: flex;
+}
+
+.liquid .nav {
+  width: 30%;
+  background-color: green;
+  border: 1px solid #fff;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 20px;
+
+}
+
+.liquid .section {
+  width: 70%;
+  background-color: green;
+  border: 1px solid #fff;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 20px;
+
+}
